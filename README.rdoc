@@ -1,3 +1,0 @@
-Movie recomendation app
-
-Compare movies with any friends, to see what you have in common!
