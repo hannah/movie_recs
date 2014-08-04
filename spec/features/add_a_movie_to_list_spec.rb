@@ -12,7 +12,7 @@ feature 'create a new list', %q(
     user = FactoryGirl.create(:user)
 
     sign_in_as(user)
-    visit root
+    visit root_path
     click_on("Create a new list")
 
     list = FactoryGirl.build(:list)
